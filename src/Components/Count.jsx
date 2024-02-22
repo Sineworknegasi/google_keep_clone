@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Count(props) {
+function Count({count}) {
     return (
-        <div>
-            <h3>{Count}</h3>
+        <div className='count'>
+            <h4>{count}</h4>
         </div>
     );
 }

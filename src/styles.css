@@ -83,6 +83,7 @@ form button {
     padding: 10px;
     margin: 16px;
     float: left;
+    margin-right: 0;
 }
 
 .note h1 {
@@ -107,3 +108,27 @@ form button {
     outline: none;
 }
 
+.count {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+}
+
+.addbtn {
+    font-size: 1.5rem;
+}
+
+.deletebtn {
+    font-size: 1.5rem;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
